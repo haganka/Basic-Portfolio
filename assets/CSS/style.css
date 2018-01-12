@@ -45,12 +45,15 @@ header {
 
 }
 
+li {
+    display: inLine;
+}
+
 #about {
     list-style-type: none;
     float: left;
-    padding: 5px, 15px;
+    padding: 5px, 20px, 5px, 20px;
     margin-right: 20px;
-  
 }
 
 #portfolio {
@@ -66,6 +69,21 @@ header {
     float: left;
     padding: 5px, 20px, 5px, 20px;
     margin-left: 20px;
+}
+
+
+a:visited {
+    color: rgb(136, 136, 136);
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(26, 25, 26);
+}
+
+/* active link */
+a:active {
+    color: #0000FF;
 }
 
 .pageHead {
@@ -89,6 +107,7 @@ header {
     float: left;
     clear: both;
 }
+
 #connect {
     background-color: #fff;
     padding: 25px;
@@ -112,9 +131,8 @@ header {
     position: absolute;
     top: 0;
     border-bottom: 2px solid #b9b9b9;
-    width: 410px;
+    width: 385px;
     padding-bottom: 20px;
-    
 
 }
 
@@ -122,8 +140,11 @@ header {
     background-color: rgb(255, 255, 255);
     width: 600px;
     padding: 80px;
+    /* padding-right: 30px; */
+    /* padding-left: 30px; */
     margin-left: 150px;
     margin-top: 50px;
+    margin-bottom: 200px;
     overflow: auto; 
     clear: both;
     float: left;
@@ -131,6 +152,37 @@ header {
     border-width: .5px;
 
 }
+
+#cat, #dog, #horse, #tree, #giraffe, #puppy {
+    width: 240px;
+    /* margin-left: 30px;
+    margin-top: -60px;
+    margin-right: 80px;
+    margin-bottom: 80px; */
+    position: relative;
+    /* float: left; */
+    margin: 5px;
+    
+}
+
+.box {
+    position: relative;
+    float: left;
+}
+
+#catlabel, #doglabel, #horselabel, #treelabel, #giraffelabel, #puppylabel {
+    position: absolute;
+    background: #4aaaa5;
+    width: 230px;
+    padding: 5px;
+    bottom: 20px;
+    margin: 5px;
+    font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
+    color:  #ffffff;
+    text-align: center;
+}
+
+
 
 #div {
     background-color: #6ea3da;
@@ -147,8 +199,7 @@ header {
     padding: 50px;
     font-size: 11px;
     position: relative;
-    bottom: -130px;
-    margin-top: 300px;
+    bottom: 0;
     width: 100%;
     border-top: solid #777777;
 }
@@ -181,6 +232,33 @@ p {
 
 }
 
+.formBox {
+    margin-top: -80px;
+    margin-left: -50px;
+}
+
+#formName {
+    margin-bottom: 5px;
+}
+
+#formEmail {
+    margin-bottom: 5px;
+}
+
+#formMessage {
+    margin-bottom: 5px;
+}
+
+#messageBox {
+    height: 250px;
+}
+
+input {
+    width: 500px;
+    height: 20px;
+    padding: 6px;
+    margin-bottom: -10px;
+}
 
 
 
